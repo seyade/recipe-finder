@@ -1,0 +1,49 @@
+.App {
+  padding: 5%;
+  text-align: center;
+}
+
+.app-nav {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.app-nav a {
+  color: #777;
+}
+
+.recipe-item {
+  display: flex;
+  margin: 16px;
+}
+
+.recipe-item__link {
+  display: inline-block;
+  flex: 0 0 100px;
+}
+
+.recipe-item__title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.recipe-item__description {
+  text-align: left;
+  padding-left: 16px;
+}
+
+.recipe-item__text {
+}
+
+.recipe-item__fav-btn {
+  border: 0;
+  background-color: transparent;
+}
+
+.recipe-item__image {
+  border-radius: 2px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+}
